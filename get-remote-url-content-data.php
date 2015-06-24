@@ -1,4 +1,4 @@
-
+<?php
 echo get_remote_data('http://example.com/');                                   //simple request
 echo get_remote_data('http://example.com/', "var2=something&var3=blabla" );    //POST request 										
 
@@ -64,3 +64,4 @@ function get_remote_data($url, $post_paramtrs=false)	{
 }
 
 	
+?>
